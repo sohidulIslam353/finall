@@ -1,0 +1,130 @@
+.price{
+    font-size: 42px;
+    line-height: 51px;
+}
+.pricing1{
+    border-radius:10px;
+}
+
+.pricing1_header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.border_success{
+    border:1px solid #5aca82;
+}
+.border_warning{
+    border:1px solid #fcb410;
+}
+.border_info{
+    border:1px solid #007bb8;
+}
+.border_mint{
+    border:1px solid #31d0d6;
+}
+
+.border_primary{
+    border:1px solid #329cff;
+}
+.border_danger{
+    border:1px solid #f86a67;
+}
+.border_purple{
+    border:1px solid #937eff;
+}
+.pricing1_buy{
+    padding:  15px 20px;
+}
+.pricing1_body hr{
+    margin: 5px 0;
+}
+.translate_effect{
+    position: relative;
+    transition: 300ms;
+}
+.translate_effect:hover{
+    transform:translateY(-10px);
+    box-shadow: 0 8px 10px #ccc, -10px 8px 15px #ccc, 10px 8px 15px #ccc;
+}
+/*-------------------modal 2-------------*/
+.price2{
+    font-size: 40px;
+    line-height: 45px;
+}
+.model2_price_circle{
+    margin:auto;
+    width:120px;
+    height: 120px;
+    position: relative;
+    z-index: 99;
+    /*top:25px;*/
+    border: 2px solid #fff;
+
+}
+.pricing2_body hr{
+    margin: 5px 0;
+}
+.pricing2_price{
+    max-height: 100px;
+}
+.pricing2_header_expert{
+    background-color: #0472c7;
+}
+.pricing2_header_expert2{
+    background-color: #006292;
+}
+.pricing2_header_basic{
+    background-color: #d84035;
+}
+.pricing2_header_advanced{
+    background-color: #614ad4;
+}
+/*-------------modal 3----------*/
+.price3{
+    font-size: 45px;
+    line-height: 52px;
+}
+.pricing3_price{
+    border-bottom-right-radius: 145px;
+}
+.pricing_tables a:focus{
+    color: #292b2c;
+}
+/*------------Dark Table------------*/
+.dark_price_layout{
+    padding:0 18px;
+}
+.bg-dark{
+    background-color: #171414;
+    border: 1px solid #444643;
+    transition: 300ms;
+}
+.bg-dark i{
+    transition: 300ms;
+}
+.bg-dark:hover{
+    border: 1px solid #fff;
+    transform:translateY(-5px);
+}
+.bg-dark:hover i{
+    color:#fff !important;
+}
+.bg-dark:hover .btn{
+    border:1px solid #fff;
+    color:#fff;
+    background-color: transparent;
+}
+.pricing_dark .list-group-item{
+    background-color: transparent;
+    display: block;
+}
+.pricing_dark_header i{
+    font-size: 34px;
+}
+.pricing_dark_price{
+    font-size: 30px;
+}
+.text_light_dark{
+    color:#848484;
+}
